@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Products</title>
+    <link rel="stylesheet" href="search.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="icon">
+            <h2 class="logo">Tech AS</h2>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="product.html">TECH PRODUCTS</a></li>
+                <li><a href="technology.html">TECH TRENDS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Search Section -->
+    <section class="search-section">
+        <h1>Search for Tech Products</h1>
+        <input type="text" id="search-input" placeholder="Search for phones, laptops, software, or hardware..." onkeyup="searchItems()">
+    </section>
+
+    <!-- Search Results -->
+    <section class="results-section">
+        <h2>Search Results:</h2>
+        <ul id="products-list">
+            <a href="https://www.ifixit.com/Parts/iPhone_14_Pro_Max"></a>
+            <li class="product-item" data-type="phone">iPhone 14 Pro Max - $1,099</li>
+            <li class="product-item" data-type="phone">Samsung Galaxy S23 Ultra - $1,199</li>
+            <li class="product-item" data-type="laptop">MacBook Pro 16" - $2,399</li>
+            <li class="product-item" data-type="laptop">Dell XPS 13 - $1,099</li>
+            <a href="https://www.microsoft.com/en-in/microsoft-365/business/compare-all-microsoft-365-business-products?&activetab=tab:primaryr2"></a>
+            <li class="product-item" data-type="software">Microsoft Office 365 - $69.99/year</li>
+            <li class="product-item" data-type="software">Adobe Phot"oshop - $20.99/month</li>
+            <a href="https://www.logitechg.com/en-us/innovation/lightsync-rgb.html"></a>
+            <li class="product-item" data-type="hardware">Corsair RGB Keyboard - $99.99</li>
+            <li class="product-item" data-type="hardware">Logitech G502 Mouse - $59.99</li>
+        </ul>
+    </section>
+
+    <script src="search.js"></script>
+
+</body>
+</html>
+
+
+
